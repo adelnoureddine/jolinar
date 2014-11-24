@@ -1,5 +1,5 @@
 /*
- * Copyright (c) 2014, Inria, University Lille 1.
+ * Copyright (c) 2014, Adel Noureddine.
  * All rights reserved. This program and the accompanying materials
  * are made available under the terms of the GNU Affero General Public License v3.0
  * which accompanies this distribution, and is available at
@@ -8,14 +8,14 @@
  * Author : Adel Noureddine
  */
 
-package jolinar.formulas.disk;
+package jolinar.sensors.memory;
 
-public interface DiskFormulasInterface {
+public interface MemorySensorsInterface {
 
 	/**
-	 * Get disk power for writing and reading to disk for pid
-	 * @return Disk power for writing and reading to disk for pid
+	 * Get the percentage of memory resident usage used by pid
+	 * @return The percentage of memory resident usage used by pid
 	 */
-	double getDiskPower();
+	double getProcesMemoryPercentage();
 
 }

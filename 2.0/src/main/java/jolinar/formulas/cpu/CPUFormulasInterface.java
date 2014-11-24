@@ -8,14 +8,14 @@
  * Author : Adel Noureddine
  */
 
-package jolinar.formulas.disk;
+package jolinar.formulas.cpu;
 
-public interface DiskFormulasInterface {
+public interface CPUFormulasInterface {
 
 	/**
-	 * Get disk power for writing and reading to disk for pid
-	 * @return Disk power for writing and reading to disk for pid
+	 * Get CPU power for CPU for pid
+	 * @return CPU power for CPU for pid
 	 */
-	double getDiskPower();
+	double getCPUPower();
 
 }
